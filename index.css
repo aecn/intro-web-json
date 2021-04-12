@@ -1,0 +1,59 @@
+/*CSS*/
+
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Poppins', sans-serif;
+}
+
+#title {
+  text-align: center;
+  padding: 75px;
+  background-color: #f3d5b5;
+}
+
+#title h1 {
+  font-size: 12vmin;
+  color: #f00000;
+}
+
+#collectionGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 2vmin;
+  grid-row-gap: 10vmin;
+  padding: 30px;
+  background-color: #FFF2DE;
+}
+
+.collectionItem {
+  text-align: center;
+  color: #023e8a;
+}
+
+.topImage {
+  height: 35vmin;
+  padding: 30px;
+}
+
+.collectionItem:hover {
+  transform: scale(1.1);
+  background-color: #FFF7F1;
+}
+
+.artTitle {
+  text-align: center;
+}
+
+.artist {
+  text-align: center;
+  padding: 5px;
+}
+
+.info {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  padding: 20px;
+}
